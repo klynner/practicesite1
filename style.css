@@ -58,6 +58,10 @@ nav ul li a:hover::before {
 	width: 100%;
 }
 
+h1 {
+	font-family: "Comic Sans MS", cursive, sans-serif
+}
+
 	
 h1 a {
 	color: rgb(58, 58, 58);
@@ -94,4 +98,8 @@ font-weight: 800;
    Width: 100%;
 	height: auto;
 	Margin: 0px;
+}
+html #footer {
+   position:absolute;
+   top:expression((0-(footer.offsetHeight)+(document.documentElement.clientHeight ?   document.documentElement.clientHeight : document.body.clientHeight)+(ignoreMe =    document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop))+'px');
 }
