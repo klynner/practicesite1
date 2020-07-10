@@ -103,7 +103,8 @@ aside {
 	background-color: rgb(204, 229, 255);
 color: rgb(58, 58, 58);
 font-family: "Comic Sans MS", cursive, sans-serif;
-	text-align: Right;
+	float: right;
+	margin: 10px;
 	
 }
 html #footer {
