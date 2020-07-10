@@ -59,7 +59,7 @@ nav ul li a:hover::before {
 }
 
 h1 {
-	font-family: "Comic Sans MS", cursive, sans-serif
+	font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
 	
@@ -98,6 +98,13 @@ font-weight: 800;
    Width: 100%;
 	height: auto;
 	Margin: 0px;
+}
+aside {
+	background-color: rgb(204, 229, 255);
+color: rgb(58, 58, 58);
+font-family: "Comic Sans MS", cursive, sans-serif;
+	text-align: Right;
+	
 }
 html #footer {
    position:absolute;
